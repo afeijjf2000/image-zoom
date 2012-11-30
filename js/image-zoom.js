@@ -1,4 +1,4 @@
-/*!
+/*
  * The image zoom plugin references the jQzoom plugin, and remove the features not be used.
  * Make the code be simple. 
  * 

@@ -1,9 +1,3 @@
-
-/*********************************************************
-/ When clicking on thumbs jqzoom will add the class
-/ "zoomThumbActive" on the anchor selected
-/*********************************************************/
-
 .image-zoom{
 	display: inline-block;
 	cursor: default;
