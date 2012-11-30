@@ -1,0 +1,47 @@
+
+/*********************************************************
+/ When clicking on thumbs jqzoom will add the class
+/ "zoomThumbActive" on the anchor selected
+/*********************************************************/
+
+.image-zoom{
+	display: inline-block;
+	cursor: default;
+	position: relative;
+}
+.zoom-loading{
+	text-align: center;
+	width: 32px;
+	height: 32px;
+	background: url(../images/loading.gif) no-repeat 0 0 transparent;
+	z-index: 110;
+	position: absolute;
+}
+.zoom-lens{
+	background: url(../images/zoom.png) repeat scroll 0 0;
+	cursor: move;
+	z-index: 120;
+	position: absolute;
+}
+.zoom-viewer {
+	overflow: hidden;
+	position: absolute;
+	background: #FFF;
+	z-index: 110;
+	border: 1px solid #DDDDDD;
+	-moz-box-shadow: 2px 2px 1px #e2e2e2;
+	-webkit-box-shadow: 2px 2px 1px #e2e2e2;
+	box-shadow: 2px 2px 1px #e2e2e2;
+
+}
+.zoom-viewer img {
+	position: absolute;
+}
+.zoom-iframe {
+	z-index: -1;
+	filter:alpha(opacity=0);
+	-moz-opacity: 0.80;
+	opacity: 0.80;
+	position:absolute;
+	display:block;
+}
